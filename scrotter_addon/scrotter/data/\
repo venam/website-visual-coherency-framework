@@ -1,0 +1,8 @@
+
+self.port.on("save", function(the_base64_image) {
+	console.log(the_base64_image);
+	self.port.on("drawBorder", function(color) {
+		  document.body.style.border = "5px solid " + color;
+	});
+});
+

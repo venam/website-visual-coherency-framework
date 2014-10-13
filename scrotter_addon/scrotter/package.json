@@ -1,0 +1,33 @@
+{
+	"name": "scrotter",
+	"title": "scrotter",
+	"id": "jid1-Tynf34F0MN6BAsdfasdg",
+	"description": "an add-on to automatically browse a queue of pages and take screenshots of them",
+	"author": "Patrick Louis (patrick at iotek dot org)",
+	"license": "UH License",
+	"version": "0.1",
+	"icon":"data/icon-64.png",
+	"preferences": [
+		{
+			"name": "TIMEOUT",
+			"title": "Timeout",
+			"description": "The timeout in seconds before switching to other pages",
+			"type": "integer",
+			"value": 7
+		},
+		{
+			"name": "LOCATION",
+			"title": "Location",
+			"description": "Where to store the screenshot directories",
+			"type": "directory",
+			"value": "/home/stick/scrotter_test/"
+		},
+		{
+			"name": "PAGES",
+			"title": "Pages",
+			"description" : "The list of pages to visit",
+			"type": "control",
+			"label": "List Pages"
+		}
+	]
+}
