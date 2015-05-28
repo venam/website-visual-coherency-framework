@@ -25,6 +25,10 @@ Over time you'll accumulate a lot of subdirs with screenshots of the websites
 you care about.
 
 
+TODO: Use phantomjs to take the screenshots instead of the addon.
+I wrote the addon just to learn how to create one.
+
+
 ### Image Comparison
 
 
